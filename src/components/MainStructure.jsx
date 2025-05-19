@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-const MainStructure = () => {
+function MainStructure() {
   return (
     <div className="box">
       <div className="container mt-3">
@@ -13,6 +13,6 @@ const MainStructure = () => {
       </div>
     </div>
   );
-};
+}
 
 export default MainStructure;

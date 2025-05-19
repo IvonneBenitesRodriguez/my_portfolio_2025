@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import networkSecurityImage from '../img/projects/network_security.png';
 import offensiveSecurityImage from '../img/projects/unfiltered_ports.png';
 
-const FifthPart = () => {
+function FifthPart() {
   return (
     <div>
       <div className="container my-2">
@@ -47,7 +47,6 @@ const FifthPart = () => {
               style={{
                 textAlign: 'justify',
                 marginBottom: '20px',
-                textAlign: 'justify',
                 width: '90%',
                 margin: '0 auto',
               }}
@@ -59,7 +58,7 @@ const FifthPart = () => {
             </p>
             <div className="d-flex justify-content-center">
               <a
-                href="/assessment/network_assessment.pdf"
+                href="/cv/network_assessment.pdf"
                 target="_blank"
                 download="network_assessment.pdf"
                 style={{ textDecoration: 'none' }}
@@ -94,9 +93,6 @@ const FifthPart = () => {
                 border: '1px solid #ccc',
                 borderRadius: '10px',
                 marginBottom: '20px',
-                margin: '0 auto',
-                textAlign: 'center',
-                marginBottom: '20px',
                 marginTop: '20px',
               }}
             />
@@ -118,7 +114,6 @@ const FifthPart = () => {
               style={{
                 textAlign: 'justify',
                 marginBottom: '20px',
-                textAlign: 'justify',
                 width: '90%',
                 margin: '0 auto',
               }}
@@ -131,7 +126,7 @@ const FifthPart = () => {
             </p>
             <div className="d-flex justify-content-center">
               <a
-                href="/assessment/offensive_security.pdf"
+                href="/cv/offensive_security.pdf"
                 target="_blank"
                 download="offensive_security.pdf"
                 style={{ textDecoration: 'none' }}
@@ -157,6 +152,6 @@ const FifthPart = () => {
       </div>
     </div>
   );
-};
+}
 
 export default FifthPart;

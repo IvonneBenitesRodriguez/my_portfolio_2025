@@ -1,11 +1,18 @@
 import React from 'react';
 import '../App.css';
+import p4 from '../img/projects/p4.png';
+import p2 from '../img/projects/p2.png';
+import p5 from '../img/projects/p5.png';
+import p6 from '../img/projects/p6.png';
+import p7 from '../img/projects/p7.png';
+import p11 from '../img/projects/p11.png';
 
-const ThirdPart = () => {
+function ThirdPart() {
   const projects = [
     {
+      id: 1,
       title: 'Full Stack Project (React, Rails, PostgreSQL)',
-      image: require('../img/projects/p4.png'),
+      image: p4,
       githubUrl:
         'https://github.com/IvonneBenitesRodriguez/medical_project_frontend',
       liveUrl: 'https://medical-project-frontend.vercel.app/',
@@ -13,16 +20,18 @@ const ThirdPart = () => {
         'A medical project that allows users to manage their health records and appointments.',
     },
     {
+      id: 2,
       title: 'Frontend Project (React,CSS3)',
-      image: require('../img/projects/p2.png'),
+      image: p2,
       githubUrl: 'https://github.com/IvonneBenitesRodriguez/bakery_shop_site',
       liveUrl: '',
       description:
         'A bakery shop website designed for displaying baked goods and enabling online orders.',
     },
     {
+      id: 3,
       title: 'Frontend Project (React,CSS3)',
-      image: require('../img/projects/p5.png'),
+      image: p5,
       githubUrl:
         'https://github.com/IvonneBenitesRodriguez/my_coffee_elections',
       liveUrl: 'https://my-coffee-elections.vercel.app/',
@@ -30,16 +39,18 @@ const ThirdPart = () => {
         'A coffee elections project lets users vote for coffee blends and see real-time results.',
     },
     {
+      id: 4,
       title: 'Frontend Project (JavaScript, CSS3, HTML5)',
-      image: require('../img/projects/p6.png'),
+      image: p6,
       githubUrl: 'https://github.com/IvonneBenitesRodriguez/weather_app',
       liveUrl: 'https://nifty-banach-7d60d8.netlify.app/',
       description:
         'A weather app shows real-time updates and forecasts for different locations.',
     },
     {
+      id: 5,
       title: 'Full Stack Project (React, Rails, PostgreSQL)',
-      image: require('../img/projects/p7.png'),
+      image: p7,
       githubUrl:
         'https://github.com/IvonneBenitesRodriguez/finalGroupCapstone-frontend',
       liveUrl: 'https://luminous-semolina-e113b8.netlify.app/',
@@ -47,8 +58,9 @@ const ThirdPart = () => {
         'Front-end Book hotel app : users can book hotels online, make reservations, & view hotel details.',
     },
     {
+      id: 6,
       title: 'Frontend Project (HTML5,CSS3)',
-      image: require('../img/projects/p11.png'),
+      image: p11,
       githubUrl: 'https://github.com/IvonneBenitesRodriguez/homepage',
       liveUrl: 'https://ivonnebenitesrodriguez.github.io/homepage/',
       description:
@@ -64,8 +76,8 @@ const ThirdPart = () => {
           </div>
         </div>
         <div className="row g-3">
-          {projects.map((project, index) => (
-            <div className="col-md-4" key={index}>
+          {projects.map((project) => (
+            <div className="col-md-4" key={project.id}>
               <div className="card">
                 <img
                   src={project.image}
@@ -101,6 +113,6 @@ const ThirdPart = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ThirdPart;

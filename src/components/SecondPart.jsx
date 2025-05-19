@@ -2,10 +2,10 @@ import React from 'react';
 import '../App.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import mypicture2 from '../img/mypicture2.jpeg';
 
-const SecondPart = () => {
+function SecondPart() {
   return (
     <div className="container my-3">
       <div className="row g-3 align-items-center">
@@ -46,6 +46,6 @@ const SecondPart = () => {
       </div>
     </div>
   );
-};
+}
 
 export default SecondPart;

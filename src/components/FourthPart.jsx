@@ -1,7 +1,16 @@
 import React from 'react';
 import '../App.css';
+import bdg1 from '../img/badges/bdg1.png';
+import bdg2 from '../img/badges/bdg2.png';
+import bdg3 from '../img/badges/bdg3.png';
+import bdg4 from '../img/badges/bdg4.png';
+import bdg5 from '../img/badges/bdg5.png';
+import bdg6 from '../img/badges/bdg6.png';
+import bdg7 from '../img/badges/bdg7.png';
+import bdg12 from '../img/badges/bdg12.png';
+import bgd10 from '../img/badges/bgd10.png';
 
-const FourthPart = () => {
+function FourthPart() {
   const badges = [
     {
       title: 'Nmap Basics',
@@ -9,14 +18,14 @@ const FourthPart = () => {
         'Powerful network scanning tool used to discover hosts and services on a computer.',
       benefits:
         'identifying open ports and running services, revealing potential security vulnerabilities for hardening.',
-      image: require('../img/badges/bdg1.png'),
+      image: bdg1,
     },
     {
       title: 'Nmap Basics Port Scans',
       description:
         'Check common network service ports to see if they are open and listening for connections.',
       benefits: 'identifying open ports and the services listening on them.',
-      image: require('../img/badges/bdg2.png'),
+      image: bdg2,
     },
     {
       title: 'Nmap Advanced Port Scans',
@@ -24,7 +33,7 @@ const FourthPart = () => {
         'Offers a deep analysis, target ports/services, versions, vulnerabilities, and bypass firewalls.',
       benefits:
         ' Deep service and vulnerability analysis, often bypassing basic security measures.',
-      image: require('../img/badges/bdg3.png'),
+      image: bdg3,
     },
     {
       title: 'Nmap Post Port Scans',
@@ -32,7 +41,7 @@ const FourthPart = () => {
         'Use information from initial scans to further investigate open ports and services for specific vulnerabilities.',
       benefits:
         'Gaining deeper, more specific insights into identified open ports and services.',
-      image: require('../img/badges/bdg4.png'),
+      image: bdg4,
     },
     {
       title: 'Wireshark: the Basics',
@@ -40,7 +49,7 @@ const FourthPart = () => {
         'It is a network protocol analyzer that captures and displays network traffic in real-time, allowing you to inspect the data exchanged between devices.',
       benefits:
         'Seeing raw network data for fundamental understanding of communication and issues.',
-      image: require('../img/badges/bdg5.png'),
+      image: bdg5,
     },
     {
       title: 'Wireshark: Packet Operations',
@@ -48,7 +57,7 @@ const FourthPart = () => {
         'Wireshark Packet Operations involve manipulating and examining captured network traffic to diagnose problems and understand communication flows.',
       benefits:
         'Detailed network traffic analysis for effective troubleshooting and security insights.',
-      image: require('../img/badges/bdg6.png'),
+      image: bdg6,
     },
     {
       title: 'Owasp Top 10',
@@ -56,7 +65,7 @@ const FourthPart = () => {
         'Detailed network traffic analysis for effective troubleshooting and security insights.',
       benefits:
         ' providing a focused and prioritized awareness of web security vulnerabilities.',
-      image: require('../img/badges/bdg7.png'),
+      image: bdg7,
     },
     {
       title: 'SQL Map Room',
@@ -64,7 +73,7 @@ const FourthPart = () => {
         'This room helps to identify and exploit SQL injection vulnerabilities using SQLMap tool.',
       benefits:
         'Detect and exploit SQL injection vulnerabilities in web applications using SQLMap.',
-      image: require('../img/badges/bdg12.png'),
+      image: bdg12,
     },
     {
       title: 'Introduction to Security Engineering ',
@@ -72,7 +81,7 @@ const FourthPart = () => {
         'Fundamental cybersecurity concepts, principles, and common terminology introduction.',
       benefits:
         'Establishing a crucial initial understanding of fundamental cybersecurity.',
-      image: require('../img/badges/bgd10.png'),
+      image: bgd10,
     },
   ];
   return (
@@ -118,6 +127,6 @@ const FourthPart = () => {
       </div>
     </div>
   );
-};
+}
 
 export default FourthPart;
