@@ -1,38 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+    font-size: 16px;
+    margin:0;
+    padding:0;
+    width: 100%;
+    background-color: #fdfdcb;
+    line-height: 1.6;
+}
+   
+root{
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    color: #333;
+}
 .App {
-  text-align: center;
+   min-height: 100vh;
+   background-color: #fdfdcb;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
+.header {
+    background-color: #fdfdcb;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.project-image{
+width: 100%;
+height: auto;
+max-width: 140px;
+object-fit: cover;
+display: block;
+margin: 0 auto;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.btn.button.me-2 {
+    background-color: #ffdcf5;
+    color: #4a4a48;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn.button_live {
+    background-color: #f6c523;
+    color: #4a4a48;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.badge-image{
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+.network-security-image{
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    footer {
+      padding: 10px;
+    }
+  
+    footer img {
+      width: 16px;
+      margin-right: 5px;
+    }
+  
+    footer h2 {
+      font-size: 1.2rem;
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    footer a {
+        font-size: 0.8rem;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
