@@ -22,6 +22,15 @@
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never"
+      }
+    ],
+    "import/newline-after-import": ["error", { "count": 1 }],
     "no-shadow": "off",
     "quotes": ["error", "single"],
     "jsx-a11y/label-has-associated-control": "off"
