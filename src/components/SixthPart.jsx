@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
 
-const SixthPart = () => {
+function SixthPart() {
   const languages = [
-    { name: 'English', level: 'Proficiency', flag: '/flag/f2.png' },
+    { name: 'English', level: 'Proficiency', flag: '../public/flag/f2.png' },
     { name: 'Spanish', level: 'Native Speaker', flag: '/flag/f0.png' },
     { name: 'French', level: 'Proficiency', flag: '/flag/f1.png' },
     { name: 'Italian', level: 'Proficiency', flag: '/flag/f5.png' },
@@ -20,8 +20,11 @@ const SixthPart = () => {
           Languages I Speak
         </h2>
         <div className="row justify-content-center">
-          {languages.map((language, index) => (
-            <div key={index} className="col-12 col-sm-6 col-md-3 text-center">
+          {languages.map((language) => (
+            <div
+              key={language.name}
+              className="col-12 col-sm-6 col-md-3 text-center"
+            >
               <div
                 style={{
                   marginBottom: '20px',
@@ -49,6 +52,6 @@ const SixthPart = () => {
       </div>
     </div>
   );
-};
+}
 
 export default SixthPart;

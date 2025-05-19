@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-const SeventhPart = () => {
+function SeventhPart() {
   return (
     <footer
       style={{
@@ -23,16 +23,15 @@ const SeventhPart = () => {
           flexWrap: 'wrap',
         }}
       >
+        <strong style={{ marginRight: '5px' }}>Github:</strong>
         <img
-          src="/icon/c0.png"
-          alt="GitHub Icon"
+          src="/public/icon/c0.png"
+          alt=""
           style={{
             width: '20px',
             height: 'auto',
-            marginRight: '10px',
           }}
         />
-        <strong>GitHub:</strong>{' '}
         <a
           href="https://github.com/IvonneBenitesRodriguez"
           target="_blank"
@@ -54,15 +53,14 @@ const SeventhPart = () => {
         }}
       >
         <img
-          src="/icon/c1.png"
-          alt="Email Icon"
+          src="/public/icon/c1.png"
+          alt=""
           style={{
             width: '20px',
             height: 'auto',
-            marginRight: '10px',
           }}
         />
-        <strong>Email:</strong>{' '}
+        <strong style={{ marginRight: '5px' }}>Email:</strong>
         <a
           href="mailto:ivonnebenites2015@gmail.com"
           style={{ textDecoration: 'none', color: ' #4a4a48' }}
@@ -82,15 +80,14 @@ const SeventhPart = () => {
         }}
       >
         <img
-          src="/icon/c2.png"
-          alt="Medium Icon"
+          src="/public/icon/c2.png"
+          alt=""
           style={{
             width: '20px',
             height: 'auto',
-            marginRight: '10px',
           }}
         />
-        <strong>Medium:</strong>{' '}
+        <strong style={{ marginRight: '5px' }}>Medium:</strong>
         <a
           href="https://medium.com/@ivonnebenites2015/why-did-i-choose-to-study-software-development-8f9e979bffc2"
           target="_blank"
@@ -106,6 +103,6 @@ const SeventhPart = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default SeventhPart;
