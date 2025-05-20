@@ -1,105 +1,118 @@
 import React from 'react';
 import '../App.css';
+import '../img/icon/c0.png';
+import '../img/icon/c1.png';
+import '../img/icon/c2.png';
 
 function SeventhPart() {
   return (
     <footer
       style={{
         textAlign: 'center',
-        padding: '5px',
         backgroundColor: '#ffdcf5',
         marginTop: '30px',
+        padding: '20px',
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
       }}
     >
-      <h2 style={{ marginBottom: '20px' }}>Contact Me</h2>
-
       {/* GitHub Section */}
-      <div
-        style={{
-          marginBottom: '10px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexWrap: 'wrap',
-        }}
-      >
-        <strong style={{ marginRight: '5px' }}>Github:</strong>
-        <img
-          src="/public/icon/c0.png"
-          alt=""
+      <div className="contact-row">
+        <div
           style={{
-            width: '20px',
-            height: 'auto',
+            marginBottom: '10px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexWrap: 'wrap',
+            flexDirection: 'row',
+            gap: '2px',
           }}
-        />
-        <a
-          href="https://github.com/IvonneBenitesRodriguez"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ textDecoration: 'none', color: ' #4a4a48' }}
         >
-          github.com/IvonneBenitesRodriguez
-        </a>
-      </div>
+          <strong style={{ marginRight: '2px' }}>Github:</strong>
+          <img
+            src="../img/icon/c0.png"
+            alt=""
+            style={{
+              width: '20px',
+              height: 'auto',
+              margin: '0 2px',
+              verticalAlign: 'middle',
+              display: 'inline-block',
+            }}
+          />
+          <a
+            href="https://github.com/IvonneBenitesRodriguez"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', color: ' #4a4a48' }}
+          >
+            github.com/IvonneBenitesRodriguez
+          </a>
+        </div>
 
-      {/* Email Section */}
-      <div
-        style={{
-          marginBottom: '10px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexWrap: 'wrap',
-        }}
-      >
-        <img
-          src="/public/icon/c1.png"
-          alt=""
+        {/* Email Section */}
+        <div
           style={{
-            width: '20px',
-            height: 'auto',
+            marginBottom: '10px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexWrap: 'wrap',
+            flexDirection: 'row',
           }}
-        />
-        <strong style={{ marginRight: '5px' }}>Email:</strong>
-        <a
-          href="mailto:ivonnebenites2015@gmail.com"
-          style={{ textDecoration: 'none', color: ' #4a4a48' }}
         >
-          ivonnebenites2015@gmail.com
-        </a>
-      </div>
+          <img
+            src="../img/icon/c1.png"
+            alt=""
+            style={{
+              width: '20px',
+              height: 'auto',
+            }}
+          />
+          <strong style={{ marginRight: '2px' }}>Email:</strong>
+          <a
+            href="mailto:ivonnebenites2015@gmail.com"
+            style={{ textDecoration: 'none', color: ' #4a4a48' }}
+          >
+            ivonnebenites2015@gmail.com
+          </a>
+        </div>
 
-      {/* Medium Section */}
-      <div
-        style={{
-          marginBottom: '10px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexWrap: 'wrap',
-        }}
-      >
-        <img
-          src="/public/icon/c2.png"
-          alt=""
+        {/* Medium Section */}
+        <div
           style={{
-            width: '20px',
-            height: 'auto',
-          }}
-        />
-        <strong style={{ marginRight: '5px' }}>Medium:</strong>
-        <a
-          href="https://medium.com/@ivonnebenites2015/why-did-i-choose-to-study-software-development-8f9e979bffc2"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            textDecoration: 'none',
-            color: ' #4a4a48',
-            marginRight: '10px',
+            marginBottom: '10px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexWrap: 'wrap',
           }}
         >
-          Read my article on Medium
-        </a>
+          <img
+            src="../img/icon/c2.png"
+            alt=""
+            style={{
+              width: '20px',
+              height: 'auto',
+            }}
+          />
+          <strong style={{ marginRight: '2px' }}>Medium:</strong>
+          <a
+            href="https://medium.com/@ivonnebenites2015/why-did-i-choose-to-study-software-development-8f9e979bffc2"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: 'none',
+              color: ' #4a4a48',
+              marginRight: '10px',
+            }}
+          >
+            Read my article on Medium
+          </a>
+        </div>
       </div>
     </footer>
   );

@@ -1,15 +1,22 @@
 import React from 'react';
 import '../App.css';
+import f0 from '../img/flag/f0.png';
+import f1 from '../img/flag/f1.png';
+import f2 from '../img/flag/f2.png';
+import f3 from '../img/flag/f3.png';
+import f4 from '../img/flag/f4.png';
+import f5 from '../img/flag/f5.png';
+import f6 from '../img/flag/f6.png';
 
 function SixthPart() {
   const languages = [
-    { name: 'English', level: 'Proficiency', flag: '../img/flag/f2.png' },
-    { name: 'Spanish', level: 'Native Speaker', flag: '../img/flag/f0.png' },
-    { name: 'French', level: 'Proficiency', flag: '../img/flag/f1.png' },
-    { name: 'Italian', level: 'Proficiency', flag: '../img/flag/f5.png' },
-    { name: 'Japanese', level: 'Intermediate', flag: '../img/flag/f3.png' },
-    { name: 'Portuguese', level: 'Intermediate', flag: '../img/flag/f4.png' },
-    { name: 'German', level: 'B2', flag: '../img/flag/f6.png' },
+    { name: 'English', level: 'Proficiency', flag: f2 },
+    { name: 'Spanish', level: 'Native Speaker', flag: f0 },
+    { name: 'French', level: 'Proficiency', flag: f1 },
+    { name: 'Italian', level: 'Proficiency', flag: f5 },
+    { name: 'Japanese', level: 'Intermediate', flag: f3 },
+    { name: 'Portuguese', level: 'Intermediate', flag: f4 },
+    { name: 'German', level: 'B2', flag: f6 },
   ];
 
   return (

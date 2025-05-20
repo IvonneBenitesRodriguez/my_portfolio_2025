@@ -17,14 +17,14 @@ function FourthPart() {
       description:
         'Powerful network scanning tool used to discover hosts and services on a computer.',
       benefits:
-        'identifying open ports and running services, revealing potential security vulnerabilities for hardening.',
+        'identifying open ports, revealing potential security vulnerabilities for hardening.',
       image: bdg1,
     },
     {
       title: 'Nmap Basics Port Scans',
       description:
-        'Check common network service ports to see if they are open and listening for connections.',
-      benefits: 'identifying open ports and the services listening on them.',
+        'Check common network service ports to see if they are open.',
+      benefits: 'identifying open ports and its services listening on them.',
       image: bdg2,
     },
     {
@@ -104,8 +104,8 @@ function FourthPart() {
           </div>
         </div>
         <div className="row g-3">
-          {badges.map((badge, index) => (
-            <div className="col-md-4" key={index}>
+          {badges.map((badge) => (
+            <div className="col-md-4" key={badge.title}>
               <div className="card text-center">
                 <img
                   src={badge.image}

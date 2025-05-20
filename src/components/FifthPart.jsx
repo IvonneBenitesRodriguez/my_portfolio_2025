@@ -3,6 +3,8 @@ import '../App.css';
 import Button from 'react-bootstrap/Button';
 import networkSecurityImage from '../img/projects/network_security.png';
 import offensiveSecurityImage from '../img/projects/unfiltered_ports.png';
+import '../img/assessment/network_assessment.pdf';
+import '../img/assessment/offensive_security.pdf';
 
 function FifthPart() {
   return (
@@ -58,7 +60,7 @@ function FifthPart() {
             </p>
             <div className="d-flex justify-content-center">
               <a
-                href="/cv/network_assessment.pdf"
+                href="../img/assessment/network_assessment.pdf"
                 target="_blank"
                 download="network_assessment.pdf"
                 style={{ textDecoration: 'none' }}
@@ -126,7 +128,7 @@ function FifthPart() {
             </p>
             <div className="d-flex justify-content-center">
               <a
-                href="/cv/offensive_security.pdf"
+                href="../img/assessment/offensive_security.pdf"
                 target="_blank"
                 download="offensive_security.pdf"
                 style={{ textDecoration: 'none' }}

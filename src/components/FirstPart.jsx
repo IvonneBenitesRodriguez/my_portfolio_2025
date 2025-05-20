@@ -1,7 +1,8 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button'; // Fixed import order
+import Button from 'react-bootstrap/Button';
 import mypicture from '../img/mypicture.png';
 import '../App.css';
+import '../img/cv/Resume_IvonneBenites.pdf';
 
 function FirstPart() {
   return (

@@ -11,7 +11,7 @@ function ThirdPart() {
   const projects = [
     {
       id: 1,
-      title: 'Full Stack Project (React, Rails, PostgreSQL)',
+      title: 'Full Stack Project (React, Rails, PgSQL)',
       image: p4,
       githubUrl:
         'https://github.com/IvonneBenitesRodriguez/medical_project_frontend',
@@ -40,7 +40,7 @@ function ThirdPart() {
     },
     {
       id: 4,
-      title: 'Frontend Project (JavaScript, CSS3, HTML5)',
+      title: 'Frontend Project (JS, CSS3, HTML5)',
       image: p6,
       githubUrl: 'https://github.com/IvonneBenitesRodriguez/weather_app',
       liveUrl: 'https://nifty-banach-7d60d8.netlify.app/',
@@ -49,7 +49,7 @@ function ThirdPart() {
     },
     {
       id: 5,
-      title: 'Full Stack Project (React, Rails, PostgreSQL)',
+      title: 'Full Stack Project (React, Rails, PgSQL)',
       image: p7,
       githubUrl:
         'https://github.com/IvonneBenitesRodriguez/finalGroupCapstone-frontend',
