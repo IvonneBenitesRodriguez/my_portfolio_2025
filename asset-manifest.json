@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/my_portfolio_2025/static/css/main.15c9a0dd.css",
-    "main.js": "/my_portfolio_2025/static/js/main.904dc8c3.js",
-    "static/media/offensive_security.pdf": "/my_portfolio_2025/static/media/offensive_security.fc02b1ed078eba96b2f0.pdf",
+    "main.js": "/my_portfolio_2025/static/js/main.cb36686f.js",
     "static/media/mypicture.png": "/my_portfolio_2025/static/media/mypicture.dc01db348e603bd77e95.png",
     "static/media/p2.png": "/my_portfolio_2025/static/media/p2.ce508af5e214d41769dc.png",
     "static/media/bdg2.png": "/my_portfolio_2025/static/media/bdg2.a7281f5767cc92960b4d.png",
@@ -17,7 +16,6 @@
     "static/media/p4.png": "/my_portfolio_2025/static/media/p4.231f79a6962aba1b8cbe.png",
     "static/media/bdg1.png": "/my_portfolio_2025/static/media/bdg1.fb16f23d395b241439f3.png",
     "static/media/p5.png": "/my_portfolio_2025/static/media/p5.267ac84c1ec3fe7ee801.png",
-    "static/media/network_assessment.pdf": "/my_portfolio_2025/static/media/network_assessment.fa132d98e6ffa446f7f1.pdf",
     "static/media/network_security.png": "/my_portfolio_2025/static/media/network_security.2df534653565cce10a68.png",
     "static/media/mypicture2.jpeg": "/my_portfolio_2025/static/media/mypicture2.97cabc5f5952fbdb9936.jpeg",
     "static/media/bdg7.png": "/my_portfolio_2025/static/media/bdg7.e1093356e9c9fc6741e4.png",
@@ -32,10 +30,10 @@
     "static/media/f4.png": "/my_portfolio_2025/static/media/f4.ddc1d8c98f63a57dba8d.png",
     "index.html": "/my_portfolio_2025/index.html",
     "main.15c9a0dd.css.map": "/my_portfolio_2025/static/css/main.15c9a0dd.css.map",
-    "main.904dc8c3.js.map": "/my_portfolio_2025/static/js/main.904dc8c3.js.map"
+    "main.cb36686f.js.map": "/my_portfolio_2025/static/js/main.cb36686f.js.map"
   },
   "entrypoints": [
     "static/css/main.15c9a0dd.css",
-    "static/js/main.904dc8c3.js"
+    "static/js/main.cb36686f.js"
   ]
 }
