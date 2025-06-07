@@ -30,7 +30,7 @@ function FirstPart() {
           </h3>
           <div className="col-12 col-md-6 d-flex flex-column justify-content-md-start gap-2 mb-2">
             <a
-              href="/cv/Resume_IvonneBenites.pdf"
+              href="my_portfolio_2025/cv/Resume_IvonneBenites.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Resume_IvonneBenites.pdf"
