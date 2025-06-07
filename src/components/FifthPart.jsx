@@ -60,7 +60,7 @@ function FifthPart() {
             </p>
             <div className="d-flex justify-content-center">
               <a
-                href="../img/assessment/network_assessment.pdf"
+                href="/my_portfolio_2025/assessment/network_assessment.pdf"
                 target="_blank"
                 download="network_assessment.pdf"
                 style={{ textDecoration: 'none' }}
@@ -128,7 +128,7 @@ function FifthPart() {
             </p>
             <div className="d-flex justify-content-center">
               <a
-                href="../img/assessment/offensive_security.pdf"
+                href="/my_portfolio_2025/assessment/offensive_security.pdf"
                 target="_blank"
                 download="offensive_security.pdf"
                 style={{ textDecoration: 'none' }}
