@@ -2,7 +2,6 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import mypicture from '../img/mypicture.png';
 import '../App.css';
-import '../img/cv/Resume_IvonneBenites.pdf';
 
 function FirstPart() {
   return (
@@ -31,7 +30,7 @@ function FirstPart() {
           </h3>
           <div className="col-12 col-md-6 d-flex flex-column justify-content-md-start gap-2 mb-2">
             <a
-              href="../img/cv/Resume_IvonneBenites.pdf"
+              href="/cv/Resume_IvonneBenites.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Resume_IvonneBenites.pdf"
