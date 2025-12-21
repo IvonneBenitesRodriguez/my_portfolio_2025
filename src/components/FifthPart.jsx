@@ -88,10 +88,11 @@ function FifthPart() {
               alt="Offensive Security Project"
               className="offensive-security-image img-fluid rounded"
               style={{
-                maxWidth: '100%',
+                maxWidth: '40%',
                 height: 'auto',
                 border: '1px solid #ccc',
                 borderRadius: '10px',
+                marginLeft: '28%',
                 marginBottom: '20px',
                 marginTop: '20px',
               }}

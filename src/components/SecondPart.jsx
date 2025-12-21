@@ -3,7 +3,7 @@ import '../App.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
-import mypicture2 from '../img/mypicture2.jpeg';
+import mypicture2 from '../img/second_picture.png';
 
 function SecondPart() {
   return (
@@ -19,7 +19,7 @@ function SecondPart() {
             Marketing experience and a strong understanding of customer needs
             and business goals. I&#39;m a team player with fluent English and B2
             German. My recent frontend internship in Berlin at a healthcare
-            startup provided valuable hands-on experience. Visit my LinkedIn for
+            startup provided valuable hands-on experience.Visit my LinkedIn for
             more: https://www.linkedin.com/in/ivonnebenites/. Excited to connect
             and explore how my diverse skills can contribute to your team! 😊
           </p>

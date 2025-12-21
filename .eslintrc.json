@@ -20,6 +20,7 @@
   "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+    "linebreak-style":0,
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "import/extensions": [
@@ -33,7 +34,12 @@
     "import/newline-after-import": ["error", { "count": 1 }],
     "no-shadow": "off",
     "quotes": ["error", "single"],
-    "jsx-a11y/label-has-associated-control": "off"
+    "jsx-a11y/label-has-associated-control": "off",
+    "indent": "off",
+    "react/jsx-indent": "off",
+    "react/jsx-indent-props": "off",
+    "react/jsx-closing-tag-location": "off",
+    "no-trailing-spaces": "off"
   },
   "overrides": [
     {

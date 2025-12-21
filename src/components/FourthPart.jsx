@@ -9,6 +9,10 @@ import bdg6 from '../img/badges/bdg6.png';
 import bdg7 from '../img/badges/bdg7.png';
 import bdg12 from '../img/badges/bdg12.png';
 import bgd10 from '../img/badges/bgd10.png';
+import bgd11 from '../img/badges/bgd11.png';
+import bgd13 from '../img/badges/bgd13.png';
+import bgd14 from '../img/badges/bgd14.png';
+import bgd15 from '../img/badges/bgd15.png';
 
 function FourthPart() {
   const badges = [
@@ -82,6 +86,34 @@ function FourthPart() {
       benefits:
         'Establishing a crucial initial understanding of fundamental cybersecurity.',
       image: bgd10,
+    },
+    {
+      title: 'Defensive Introduction',
+      description:
+      'Introducing defensive security and related topics, such as Threat Intelligence, SOC, DFIR, Malware Analysis, and SIEM.',
+      benefits: ' Proactive threat awareness, and foundational security monitoring.',
+      image: bgd11,
+    },
+    {
+      title: 'Offensive Security Intro',
+      description:
+      'Breaking into computer systems, exploiting software bugs, and finding loopholes in applications.',
+      benefits: ' Adversarial mindset development, identification of common attack vectors, and practical validation of security controls.',
+      image: bgd13,
+    },
+    {
+      title: 'OWASP TOP 2025:Application Design Flaws',
+      description:
+      'Categories: AS02:Security Misconfigurations, AS03:Software Supply Chain Failures, AS04:Crytographic Failures, and AS06:Insecure Design.',
+      benefits: ' Structural design flaws detection, cryptographic risk management, and practical application of Security by Design principles.',
+      image: bgd14,
+    },
+    {
+      title: 'OWASP TOP 2025:IAAA Failures',
+      description:
+      'Categories: A01: Broken Access Control, A07: Authentication Failures, A09: Logging & Alerting Failures',
+      benefits: ' Implementation of the IAAA framework to ensure secure identity verification, granular access control, and comprehensive audit trails.',
+      image: bgd15,
     },
   ];
   return (

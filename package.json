@@ -17,10 +17,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-   "build": "export NODE_OPTIONS=--openssl-legacy-provider && DISABLE_ESLINT_PLUGIN=true react-scripts build",
-    "test": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
-    "eject": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts eject",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "eslint": "^8.57.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.31.0",
