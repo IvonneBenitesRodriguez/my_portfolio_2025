@@ -120,7 +120,7 @@ function FourthPart() {
      {
       title: 'PENTESTING FUNDAMENTALS',
       description:
-      'This covers penetration tester job responsibilities and processes (finding vulnerabilities in a clients application or system).',
+      'This room covers penetration tester job responsibilities and processes (finding vulnerabilities in a clients application or system).',
       benefits: ' Understanding Penetration Testing Stages and Compliance Frameworks.',
       image: bgd16,
     },
