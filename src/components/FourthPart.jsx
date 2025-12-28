@@ -13,6 +13,7 @@ import bgd11 from '../img/badges/bgd11.png';
 import bgd13 from '../img/badges/bgd13.png';
 import bgd14 from '../img/badges/bgd14.png';
 import bgd15 from '../img/badges/bgd15.png';
+import bgd16 from '../img/badges/bgd16.png';
 
 function FourthPart() {
   const badges = [
@@ -114,6 +115,13 @@ function FourthPart() {
       'Categories: A01: Broken Access Control, A07: Authentication Failures, A09: Logging & Alerting Failures',
       benefits: ' Implementation of the IAAA framework to ensure secure identity verification, granular access control, and comprehensive audit trails.',
       image: bgd15,
+    },
+     {
+      title: 'PENTESTING FUNDAMENTALS',
+      description:
+      'This covers penetration tester job responsibilities and processes (finding vulnerabilities in a clients application or system).',
+      benefits: ' Understanding Penetration Testing Stages and Compliance Frameworks.',
+      image: bgd16,
     },
   ];
   return (
