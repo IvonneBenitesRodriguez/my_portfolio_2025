@@ -133,10 +133,10 @@ function FourthPart() {
       image: bgd17,
     },
      {
-      title: 'Principles of Security',
+      title: 'Content of Discovery',
       description:
-      'This room covers some of the fundamental principles of information security, frameworks used to protect data and systems to the elements of what exactly makes data secure.',
-      benefits: 'The measures, frameworks and protocols discussed play a small part in "Defence in Depth.',
+      'This room covers three ways to learn hidden or private content of webserver that could lead to new vulnerabilities.',
+      benefits: 'It convers Reconnaissance Phase, tools like gobuster, and dirbuster are used and finally OSINT, manual and automated ways for finding content are discovered.',
       image: bgd18,
     },
 
