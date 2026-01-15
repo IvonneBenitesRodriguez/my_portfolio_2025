@@ -15,6 +15,7 @@ import bgd14 from '../img/badges/bgd14.png';
 import bgd15 from '../img/badges/bgd15.png';
 import bgd16 from '../img/badges/bgd16.png';
 import bgd17 from '../img/badges/bgd17.png';
+import bgd18 from '../img/badges/bgd18.png';
 
 function FourthPart() {
   const badges = [
@@ -131,6 +132,14 @@ function FourthPart() {
       benefits: 'The measures, frameworks and protocols discussed play a small part in "Defence in Depth.',
       image: bgd17,
     },
+     {
+      title: 'Principles of Security',
+      description:
+      'This room covers some of the fundamental principles of information security, frameworks used to protect data and systems to the elements of what exactly makes data secure.',
+      benefits: 'The measures, frameworks and protocols discussed play a small part in "Defence in Depth.',
+      image: bgd18,
+    },
+
   ];
   return (
     <div>
