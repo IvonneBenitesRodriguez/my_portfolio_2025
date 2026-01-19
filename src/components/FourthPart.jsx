@@ -16,6 +16,7 @@ import bgd15 from '../img/badges/bgd15.png';
 import bgd16 from '../img/badges/bgd16.png';
 import bgd17 from '../img/badges/bgd17.png';
 import bgd18 from '../img/badges/bgd18.png';
+import bgd19 from '../img/badges/bgd19.png';
 
 function FourthPart() {
   const badges = [
@@ -138,6 +139,13 @@ function FourthPart() {
       'This room covers three ways to learn hidden or private content of webserver that could lead to new vulnerabilities.',
       benefits: 'It convers Reconnaissance Phase, tools like gobuster, and dirbuster are used and finally OSINT, manual and automated ways for finding content are discovered.',
       image: bgd18,
+    },
+     {
+      title: 'Authentication Bypass',
+      description:
+      'This room teaches how to defeat logins and other authentication mechanisms to allow you access to unpermitted areas.',
+      benefits: 'Learn real-word hacking techniques, and hands-on security testing experience.',
+      image: bgd19,
     },
 
   ];
