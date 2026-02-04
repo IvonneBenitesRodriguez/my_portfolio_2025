@@ -18,6 +18,7 @@ import bgd17 from '../img/badges/bgd17.png';
 import bgd18 from '../img/badges/bgd18.png';
 import bgd19 from '../img/badges/bgd19.png';
 import bgd20 from '../img/badges/bgd20.png';
+import bgd21 from '../img/badges/bgd21.png';
 
 function FourthPart() {
   const badges = [
@@ -153,6 +154,13 @@ function FourthPart() {
       description:
       'Insecure Direct Object Reference Room.',
       benefits: 'Learn to change IDs in URLs or requests to access data that does not belong to us. As a penetration tester is possible to see someone else bank account just by changing a number in the URL.',
+      image: bgd20,
+    },
+    {
+      title: 'Intro to XSS',
+      description:
+      'Intro to Cross-Site Scripting Room.',
+      benefits: 'Directly applicable to web security audits; learn attack vectors that compromise user sessions and sensitive data.',
       image: bgd20,
     },
   ];
