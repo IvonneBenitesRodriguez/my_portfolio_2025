@@ -19,6 +19,7 @@ import bgd18 from '../img/badges/bgd18.png';
 import bgd19 from '../img/badges/bgd19.png';
 import bgd20 from '../img/badges/bgd20.png';
 import bgd21 from '../img/badges/bgd21.png';
+import bgd22 from '../img/badges/bgd22.png';
 
 function FourthPart() {
   const badges = [
@@ -161,7 +162,14 @@ function FourthPart() {
       description:
       'Intro to Cross-Site Scripting Room.',
       benefits: 'Directly applicable to web security audits; learn attack vectors that compromise user sessions and sensitive data.',
-      image: bgd20,
+      image: bgd21,
+    },
+    {
+      title: 'Intro to SSRF',
+      description:
+      'Intro to Server-Side Request Forgery Room.',
+      benefits: 'Exploit server-side flaws to access internal resources and cloud services; essential for API and infrastructure security audits.',
+      image: bgd22,
     },
   ];
   return (
