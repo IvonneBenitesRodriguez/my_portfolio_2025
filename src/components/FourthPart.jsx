@@ -173,9 +173,9 @@ function FourthPart() {
       image: bgd22,
     },
      {
-      title: 'Intro to SSRF',
+      title: 'DNS in Detail',
       description:
-      'DNS in detail room.',
+      'DNS mechanics and record types - foundation for subdomain enumeration and web reconnaissance. [Practical completed].',
       benefits: 'Understand DNS mechanics (domain hierarchy, record types, resolution process) - essential foundation for subdomain enumeration and reconnaissance in web pentesting.',
       image: bgd23,
     },
