@@ -20,6 +20,7 @@ import bgd19 from '../img/badges/bgd19.png';
 import bgd20 from '../img/badges/bgd20.png';
 import bgd21 from '../img/badges/bgd21.png';
 import bgd22 from '../img/badges/bgd22.png';
+import bgd23 from '../img/badges/bgd23.png';
 
 function FourthPart() {
   const badges = [
@@ -170,6 +171,13 @@ function FourthPart() {
       'Intro to Server-Side Request Forgery Room.',
       benefits: 'Exploit server-side flaws to access internal resources and cloud services; essential for API and infrastructure security audits.',
       image: bgd22,
+    },
+     {
+      title: 'Intro to SSRF',
+      description:
+      'DNS in detail room.',
+      benefits: 'Understand DNS mechanics (domain hierarchy, record types, resolution process) - essential foundation for subdomain enumeration and reconnaissance in web pentesting.',
+      image: bgd23,
     },
   ];
   return (
