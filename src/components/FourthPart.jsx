@@ -24,6 +24,7 @@ import bgd23 from '../img/badges/bgd23.png';
 import bgd24 from '../img/badges/bgd24.png';
 import bgd25 from '../img/badges/bgd25.png';
 import bgd26 from '../img/badges/bgd26.png';
+import bgd27 from '../img/badges/bgd27.png';
 
 function FourthPart() {
   const badges = [
@@ -202,6 +203,13 @@ function FourthPart() {
       'Website fundamentals with practical exercises in HTML/JavaScript, HTML injection attacks, and discovering hardcoded credentials in source code.',
       benefits: 'Hands-on reconnaissance skills for identifying code-level vulnerabilities and security misconfigurations in web applications.',
       image: bgd26,
+    },
+     {
+      title: 'Putting all Together room',
+      description:
+      'Applied integrated web fundamentals (DNS resolution, HTTP requests, website rendering) in hands-on scenarios connecting all previous concepts.',
+      benefits: 'Complete web stack comprehension for systematic vulnerability assessment and understanding end-to-end web application flow.',
+      image: bgd27,
     },
   ];
   return (
