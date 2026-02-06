@@ -21,6 +21,8 @@ import bgd20 from '../img/badges/bgd20.png';
 import bgd21 from '../img/badges/bgd21.png';
 import bgd22 from '../img/badges/bgd22.png';
 import bgd23 from '../img/badges/bgd23.png';
+import bgd24 from '../img/badges/bgd24.png';
+import bgd25 from '../img/badges/bgd25.png';
 
 function FourthPart() {
   const badges = [
@@ -179,6 +181,21 @@ function FourthPart() {
       benefits: 'Understand DNS mechanics (domain hierarchy, record types, resolution process) - essential foundation for subdomain enumeration and reconnaissance in web pentesting.',
       image: bgd23,
     },
+    {
+      title: 'HTTP in Detail',
+      description:
+      'Learn HTTP protocol fundamentals including request/response structure, methods (GET, POST, PUT, DELETE), status codes, headers, cookies, and HTTPS basics. [Practical completed].',
+      benefits: 'Essential for understanding web application traffic, intercepting requests with Burp Suite, and exploiting session management vulnerabilities in web pentesting.',
+      image: bgd24,
+    },
+     {
+      title: 'Badge Webbed',
+      description:
+      ' Earned for completing web fundamentals covering HTTP protocol, DNS mechanics, and how web applications communicate - core knowledge for web security.',
+      benefits: ' Essential foundation for understanding web traffic interception, session management, and identifying application-layer vulnerabilities in penetration testing.',
+      image: bgd25,
+    },
+    
   ];
   return (
     <div>
