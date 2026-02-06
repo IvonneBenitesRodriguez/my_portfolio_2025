@@ -201,7 +201,7 @@ function FourthPart() {
       description:
       'Website fundamentals with practical exercises in HTML/JavaScript, HTML injection attacks, and discovering hardcoded credentials in source code.',
       benefits: 'Hands-on reconnaissance skills for identifying code-level vulnerabilities and security misconfigurations in web applications.',
-      image: bgd25,
+      image: bgd26,
     },
   ];
   return (
