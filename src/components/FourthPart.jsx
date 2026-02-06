@@ -23,6 +23,7 @@ import bgd22 from '../img/badges/bgd22.png';
 import bgd23 from '../img/badges/bgd23.png';
 import bgd24 from '../img/badges/bgd24.png';
 import bgd25 from '../img/badges/bgd25.png';
+import bgd26 from '../img/badges/bgd26.png';
 
 function FourthPart() {
   const badges = [
@@ -195,7 +196,13 @@ function FourthPart() {
       benefits: ' Essential foundation for understanding web traffic interception, session management, and identifying application-layer vulnerabilities in penetration testing.',
       image: bgd25,
     },
-    
+     {
+      title: 'How the Websites work',
+      description:
+      'Website fundamentals with practical exercises in HTML/JavaScript, HTML injection attacks, and discovering hardcoded credentials in source code.',
+      benefits: 'Hands-on reconnaissance skills for identifying code-level vulnerabilities and security misconfigurations in web applications.',
+      image: bgd25,
+    },
   ];
   return (
     <div>
