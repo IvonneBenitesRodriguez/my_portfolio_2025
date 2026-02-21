@@ -25,6 +25,7 @@ import bgd24 from '../img/badges/bgd24.png';
 import bgd25 from '../img/badges/bgd25.png';
 import bgd26 from '../img/badges/bgd26.png';
 import bgd27 from '../img/badges/bgd27.png';
+import bgd28 from '../img/badges/bgd28.png';
 
 function FourthPart() {
   const badges = [
@@ -210,6 +211,13 @@ function FourthPart() {
       'Applied integrated web fundamentals (DNS resolution, HTTP requests, website rendering) in hands-on scenarios connecting all previous concepts.',
       benefits: 'Complete web stack comprehension for systematic vulnerability assessment and understanding end-to-end web application flow.',
       image: bgd27,
+    },
+    {
+      title: 'OSI MODEL Room',
+      description:
+      'Completed the OSI Model room on TryHackMe, gaining an understanding of the 7-layer framework that governs how data is transmitted and processed across networks.',
+      benefits: ' Network communication protocols and layer-specific attack surfaces are essential for effective penetration testing and web security analysis.',
+      image: bgd28,
     },
   ];
   return (
