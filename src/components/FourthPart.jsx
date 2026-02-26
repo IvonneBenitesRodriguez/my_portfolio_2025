@@ -224,7 +224,7 @@ function FourthPart() {
       title: 'Packets & Frames Room',
       description:
       'Fundamentals of network communication, covering data transmission via packets and frames, TCP/UDP protocols, port addressing, and the TCP three-way handshake.',
-      benefits: ' Builds a solid foundation in network traffic analysis, essential for identifying vulnerabilities and performing network-layer reconnaissance in penetration testing.',
+      benefits: 'Builds a solid foundation in network traffic analysis, essential for identifying vulnerabilities and performing network-layer reconnaissance in penetration testing.',
       image: bgd29,
     },
 
