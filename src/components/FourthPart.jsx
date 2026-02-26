@@ -26,6 +26,7 @@ import bgd25 from '../img/badges/bgd25.png';
 import bgd26 from '../img/badges/bgd26.png';
 import bgd27 from '../img/badges/bgd27.png';
 import bgd28 from '../img/badges/bgd28.png';
+import bgd29 from '../img/badges/bgd29.png';
 
 function FourthPart() {
   const badges = [
@@ -219,6 +220,14 @@ function FourthPart() {
       benefits: ' Network communication protocols and layer-specific attack surfaces are essential for effective penetration testing and web security analysis.',
       image: bgd28,
     },
+    {
+      title: 'Packets & Frames Room',
+      description:
+      'the fundamentals of network communication, covering data transmission via packets and frames, TCP/UDP protocols, port addressing, and the TCP three-way handshake.',
+      benefits: 'Builds a solid foundation in network traffic analysis, essential for identifying vulnerabilities and performing network-layer reconnaissance in penetration testing.',
+      image: bgd29,
+    },
+
   ];
   return (
     <div>
