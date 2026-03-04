@@ -27,6 +27,8 @@ import bgd26 from '../img/badges/bgd26.png';
 import bgd27 from '../img/badges/bgd27.png';
 import bgd28 from '../img/badges/bgd28.png';
 import bgd29 from '../img/badges/bgd29.png';
+import bgd30 from '../img/badges/bgd30.png';
+import bgd31 from '../img/badges/bgd31.png';
 
 function FourthPart() {
   const badges = [
@@ -226,6 +228,20 @@ function FourthPart() {
       'Fundamentals of network communication, covering data transmission via packets and frames, TCP/UDP protocols, port addressing, and the TCP three-way handshake.',
       benefits: 'Builds a solid foundation in network traffic analysis, essential for identifying vulnerabilities and performing network-layer reconnaissance in penetration testing.',
       image: bgd29,
+    },
+    {
+      title: 'Burp Suite Essentials Room',
+      description:
+      'Intercept, modify and replay HTTP requests using Burp Suite Proxy and Repeater to find and exploit web vulnerabilities.',
+      benefits: 'Hands-on practice intercepting, modifying and replaying live HTTP requests to bypass client-side filters, trigger server errors, exploit XSS and SQL Injection vulnerabilities, and manipulate request headers in real-world web application scenarios.',
+      image: bgd30,
+    },
+     {
+      title: 'Burp Suite Repeater Room',
+      description:
+      'Resend and modify HTTP requests repeatedly to manually test, enumerate and exploit web vulnerabilities without re-intercepting traffic.',
+      benefits:'Manually triggered a 500 Internal Server Error by sending extreme inputs to endpoints, bypassed server-side validations, and extracted CEO confidential notes from a live database using Union SQL Injection — all without re-intercepting traffic.',
+      image: bgd31,
     },
 
   ];
