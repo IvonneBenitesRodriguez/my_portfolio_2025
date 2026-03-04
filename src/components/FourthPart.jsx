@@ -240,7 +240,7 @@ function FourthPart() {
       title: 'Burp Suite Repeater Room',
       description:
       'Resend and modify HTTP requests repeatedly to manually test, enumerate and exploit web vulnerabilities without re-intercepting traffic.',
-      benefits:'Manually triggered a 500 Internal Server Error by sending extreme inputs to endpoints, bypassed server-side validations, and extracted CEO confidential notes from a live database using Union SQL Injection — all without re-intercepting traffic.',
+      benefits: 'Manually triggered a 500 Internal Server Error by sending extreme inputs to endpoints, bypassed server-side validations, and extracted CEO confidential notes from a live database using Union SQL Injection — all without re-intercepting traffic.',
       image: bgd31,
     },
 
