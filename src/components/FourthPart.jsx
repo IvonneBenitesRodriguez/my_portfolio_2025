@@ -234,14 +234,14 @@ function FourthPart() {
       description:
       'Intercept, modify and replay HTTP requests using Burp Suite Proxy and Repeater to find and exploit web vulnerabilities.',
       benefits: 'Hands-on practice intercepting, modifying and replaying live HTTP requests to bypass client-side filters, trigger server errors, exploit XSS and SQL Injection vulnerabilities, and manipulate request headers in real-world web application scenarios.',
-      image: bgd30,
+      image: bgd31,
     },
      {
       title: 'Burp Suite Repeater Room',
       description:
       'Resend and modify HTTP requests repeatedly to manually test, enumerate and exploit web vulnerabilities without re-intercepting traffic.',
       benefits: 'Manually triggered a 500 Internal Server Error by sending extreme inputs to endpoints, bypassed server-side validations, and extracted CEO confidential notes from a live database using Union SQL Injection — all without re-intercepting traffic.',
-      image: bgd31,
+      image: bgd30,
     },
 
   ];
