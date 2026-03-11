@@ -29,6 +29,7 @@ import bgd28 from '../img/badges/bgd28.png';
 import bgd29 from '../img/badges/bgd29.png';
 import bgd30 from '../img/badges/bgd30.png';
 import bgd31 from '../img/badges/bgd31.png';
+import bgd32 from '../img/badges/bgd32.png';
 
 function FourthPart() {
   const badges = [
@@ -242,6 +243,13 @@ function FourthPart() {
       'Resend and modify HTTP requests repeatedly to manually test, enumerate and exploit web vulnerabilities without re-intercepting traffic.',
       benefits: 'Manually triggered a 500 Internal Server Error by sending extreme inputs to endpoints, bypassed server-side validations, and extracted CEO confidential notes from a live database using Union SQL Injection — all without re-intercepting traffic.',
       image: bgd30,
+    },
+    {
+      title: 'Burp Suite Intruder Room',
+      description:
+      'An automated tool for injecting custom payload sets into specific positions within an HTTP request to observe server responses.',
+      benefits: 'It enables rapid, large-scale fuzzing and brute-forcing, allowing pentesters to identify vulnerabilities like IDOR, SQLi, or hidden directories that are impossible to find manually.',
+      image: bgd32,
     },
 
   ];
