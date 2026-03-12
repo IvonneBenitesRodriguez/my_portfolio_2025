@@ -257,7 +257,7 @@ function FourthPart() {
       description:
       'Gaining hands-on experience with Decoder for encoding/decoding data transformations. Comparer for byte and word-level response analysis. Sequencer for cryptographic token entropy analysis, and Organizer for efficient project management.',
       benefits: 'Mastered advanced Burp Suite modules enabling real-world penetration testing capabilities including: identifying weak CSRF token randomness through entropy analysis, detecting subtle differences between HTTP responses to confirm successful exploits, encoding/decoding payloads to bypass WAF filters and input validation controls, and efficiently organizing security assessments — skills directly applicable to web application security testing in financial and enterprise environments.',
-      image: bgd32,
+      image: bgd33,
     },
 
   ];
