@@ -30,6 +30,7 @@ import bgd29 from '../img/badges/bgd29.png';
 import bgd30 from '../img/badges/bgd30.png';
 import bgd31 from '../img/badges/bgd31.png';
 import bgd32 from '../img/badges/bgd32.png';
+import bgd33 from '../img/badges/bgd33.png';
 
 function FourthPart() {
   const badges = [
@@ -249,6 +250,13 @@ function FourthPart() {
       description:
       'An automated tool for injecting custom payload sets into specific positions within an HTTP request to observe server responses.',
       benefits: 'It enables rapid, large-scale fuzzing and brute-forcing, allowing pentesters to identify vulnerabilities like IDOR, SQLi, or hidden directories that are impossible to find manually.',
+      image: bgd32,
+    },
+     {
+      title: 'Burp Suite: Other Modules Room',
+      description:
+      'Gaining hands-on experience with Decoder for encoding/decoding data transformations. Comparer for byte and word-level response analysis. Sequencer for cryptographic token entropy analysis, and Organizer for efficient project management.',
+      benefits: 'Mastered advanced Burp Suite modules enabling real-world penetration testing capabilities including: identifying weak CSRF token randomness through entropy analysis, detecting subtle differences between HTTP responses to confirm successful exploits, encoding/decoding payloads to bypass WAF filters and input validation controls, and efficiently organizing security assessments — skills directly applicable to web application security testing in financial and enterprise environments.',
       image: bgd32,
     },
 
