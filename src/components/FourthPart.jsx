@@ -31,6 +31,7 @@ import bgd30 from '../img/badges/bgd30.png';
 import bgd31 from '../img/badges/bgd31.png';
 import bgd32 from '../img/badges/bgd32.png';
 import bgd33 from '../img/badges/bgd33.png';
+import bgd34 from '../img/badges/bgd34.png';
 
 function FourthPart() {
   const badges = [
@@ -258,6 +259,12 @@ function FourthPart() {
       'Gaining hands-on experience with Decoder for encoding/decoding data transformations. Comparer for byte and word-level response analysis. Sequencer for cryptographic token entropy analysis, and Organizer for efficient project management.',
       benefits: 'Mastered advanced Burp Suite modules enabling real-world penetration testing capabilities including: identifying weak CSRF token randomness through entropy analysis, detecting subtle differences between HTTP responses to confirm successful exploits, encoding/decoding payloads to bypass WAF filters and input validation controls, and efficiently organizing security assessments — skills directly applicable to web application security testing in financial and enterprise environments.',
       image: bgd33,
+    },
+     {
+      title: 'Badge completed: Burp Suite Module ',
+      description:
+      '🎯 I am happy to share that I just earned the Burp Suite badge on TryHackMe, ranking in the Top 20% of users who completed the Burp Suite module.',
+       image: bgd34,
     },
 
   ];
