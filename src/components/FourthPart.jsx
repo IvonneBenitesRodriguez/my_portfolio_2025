@@ -32,6 +32,7 @@ import bgd31 from '../img/badges/bgd31.png';
 import bgd32 from '../img/badges/bgd32.png';
 import bgd33 from '../img/badges/bgd33.png';
 import bgd34 from '../img/badges/bgd34.png';
+import bgd35 from '../img/badges/bgd35.png';
 
 function FourthPart() {
   const badges = [
@@ -264,7 +265,15 @@ function FourthPart() {
       title: 'Badge completed: Burp Suite Module ',
       description:
       '🎯 I am happy to share that I just earned the Burp Suite badge on TryHackMe, ranking in the Top 20% of users who completed the Burp Suite module.',
-       image: bgd34,
+      benefits: 'Burp Suite intercepts and manipulates HTTP requests with precision, making it the essential tool for discovering and exploiting web vulnerabilities professionally.',
+      image: bgd34,
+    },
+     {
+      title: 'Race Conditions Room',
+      description:
+      'Race conditions happen when multiple simultaneous requests exploit the gap between checking and updating data, demonstrated using Burp Suite to manipulate financial balances.',
+      benefits: 'Race condition testing allows pentesters to uncover high-impact financial vulnerabilities like double spending and balance manipulation that automated tools typically miss.',
+      image: bgd35,
     },
 
   ];
