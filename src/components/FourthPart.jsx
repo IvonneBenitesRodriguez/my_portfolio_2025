@@ -33,6 +33,8 @@ import bgd32 from '../img/badges/bgd32.png';
 import bgd33 from '../img/badges/bgd33.png';
 import bgd34 from '../img/badges/bgd34.png';
 import bgd35 from '../img/badges/bgd35.png';
+import bgd36 from '../img/badges/bgd36.png';
+import bgd37 from '../img/badges/bgd37.png';
 
 function FourthPart() {
   const badges = [
@@ -274,6 +276,20 @@ function FourthPart() {
       'Race conditions happen when multiple simultaneous requests exploit the gap between checking and updating data, demonstrated using Burp Suite to manipulate financial balances.',
       benefits: 'Race condition testing allows pentesters to uncover high-impact financial vulnerabilities like double spending and balance manipulation that automated tools typically miss.',
       image: bgd35,
+    },
+     {
+      title: 'Badge completed: Intro to Web Hacking Module ',
+      description:
+      '🎯 I am happy to share that I just earned the Intro to Web Hacking badge on TryHackMe.',
+      benefits: '.',
+      image: bgd36,
+    },
+      {
+      title: 'Command Injection Room ',
+      description:
+      '.',
+      benefits: '.',
+      image: bgd37,
     },
 
   ];
