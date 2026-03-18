@@ -314,15 +314,15 @@ function FourthPart() {
         </div>
         <div className="row g-3">
           {badges.map((badge) => (
-            <div className="col-md-4" key={badge.title}>
-              <div className="card text-center">
+            <div className="col-lg-3 col-md-4 col-sm-6" key={badge.title}>
+              <div className="card text-center badge-card">
                 <img
                   src={badge.image}
                   className="card-img-top badge-image"
                   alt={badge.title}
                 />
-                <div className="card-body">
-                  <h5 className="card-title">{badge.title}</h5>
+                <div className="card-body p-2">
+                  <h6 className="card-title">{badge.title}</h6>
                   <p className="card-text">{badge.description}</p>
                   <p className="card-text">
                     <strong>Benefits:</strong>

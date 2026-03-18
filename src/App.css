@@ -101,12 +101,20 @@ root {
 .badge-image {
   width: 100%;
   height: auto;
-  max-width: 160px;
+  max-width: 90px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
+  padding-top: 8px;
 }
 
+.badge-card{
+  font-size: 0.78rem;
+}
+.badge-card-text{
+  font-size: 0.75rem;
+  margin-bottom: 4px;
+}
 .network-security-image {
   max-width: 80%;
   height: auto;
