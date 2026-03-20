@@ -35,6 +35,7 @@ import bgd34 from '../img/badges/bgd34.png';
 import bgd35 from '../img/badges/bgd35.png';
 import bgd36 from '../img/badges/bgd36.png';
 import bgd37 from '../img/badges/bgd37.png';
+import bgd38 from '../img/badges/bgd38.png';
 
 function FourthPart() {
   const badges = [
@@ -291,7 +292,13 @@ function FourthPart() {
       benefits: '.',
       image: bgd37,
     },
-
+ {
+      title: 'Active Reconnaissance Room ',
+      description:
+      '.',
+      benefits: '.',
+      image: bgd38,
+    },
   ];
   return (
     <div>
