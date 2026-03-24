@@ -37,6 +37,7 @@ import bgd36 from '../img/badges/bgd36.png';
 import bgd37 from '../img/badges/bgd37.png';
 import bgd38 from '../img/badges/bgd38.png';
 import bgd39 from '../img/badges/bgd39.png';
+import bgd40 from '../img/badges/bgd40.png';
 
 function FourthPart() {
   const badges = [
@@ -306,6 +307,13 @@ function FourthPart() {
       'OSINT Techniques used.',
       benefits: '.',
       image: bgd39,
+    },
+    {
+      title: 'Web Application Basics Room',
+      description: 
+      'Concepts such as Security Headers, URL Path, HTTP Request, Request Headers, HTTP Response, Response Headers and Security Headers.',
+      benefits: '.',
+      image: bgd40,
     },
   ];
   return (
