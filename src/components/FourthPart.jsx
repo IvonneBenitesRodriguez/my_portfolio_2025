@@ -38,6 +38,8 @@ import bgd37 from '../img/badges/bgd37.png';
 import bgd38 from '../img/badges/bgd38.png';
 import bgd39 from '../img/badges/bgd39.png';
 import bgd40 from '../img/badges/bgd40.png';
+import bgd41 from '../img/badges/bgd41.png';
+import bgd42 from '../img/badges/bgd42.png';
 
 function FourthPart() {
   const badges = [
@@ -314,6 +316,20 @@ function FourthPart() {
       'Concepts such as Security Headers, URL Path, HTTP Request, Request Headers, HTTP Response, Response Headers and Security Headers.',
       benefits: '.',
       image: bgd40,
+    },
+     {
+      title: 'Network Essentials Room',
+      description: 
+      '',
+      benefits: '.',
+      image: bgd41,
+    },
+     {
+      title: 'Networking Concepts Room',
+      description: 
+      '',
+      benefits: '.',
+      image: bgd42,
     },
   ];
   return (
