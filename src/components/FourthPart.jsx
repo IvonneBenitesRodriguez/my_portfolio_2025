@@ -346,8 +346,7 @@ function FourthPart() {
       '',
       benefits: '.',
       image: bgd44,
-    }
-
+    },
   ];
   return (
     <div>
