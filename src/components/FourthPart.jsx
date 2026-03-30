@@ -339,7 +339,7 @@ function FourthPart() {
       '',
       benefits: '.',
       image: bgd43,
-    }
+    },
     {
       title: 'Network Security Protocols',
       description:
