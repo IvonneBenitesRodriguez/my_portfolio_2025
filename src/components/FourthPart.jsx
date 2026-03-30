@@ -40,6 +40,8 @@ import bgd39 from '../img/badges/bgd39.png';
 import bgd40 from '../img/badges/bgd40.png';
 import bgd41 from '../img/badges/bgd41.png';
 import bgd42 from '../img/badges/bgd42.png';
+import bgd43 from '../img/badges/bgd43.png';
+import bgd44 from '../img/badges/bgd44.png';
 
 function FourthPart() {
   const badges = [
@@ -331,6 +333,21 @@ function FourthPart() {
       benefits: '.',
       image: bgd42,
     },
+    {
+      title: 'Networking Core Protocols',
+      description:
+      '',
+      benefits: '.',
+      image: bgd43,
+    }
+    {
+      title: 'Network Security Protocols',
+      description:
+      '',
+      benefits: '.',
+      image: bgd44,
+    }
+
   ];
   return (
     <div>
