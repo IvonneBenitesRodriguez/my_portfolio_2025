@@ -42,6 +42,7 @@ import bgd41 from '../img/badges/bgd41.png';
 import bgd42 from '../img/badges/bgd42.png';
 import bgd43 from '../img/badges/bgd43.png';
 import bgd44 from '../img/badges/bgd44.png';
+import bgd45 from '../img/badges/bgd45.png';
 
 function FourthPart() {
   const badges = [
@@ -346,6 +347,12 @@ function FourthPart() {
       '',
       benefits: '.',
       image: bgd44,
+    },{
+      title: 'Nmap Post Port Scans ',
+      description:
+      '',
+      benefits: '.',
+      image: bgd45,
     },
   ];
   return (
