@@ -349,7 +349,7 @@ function FourthPart() {
       image: bgd44,
     },
     {
-      title: 'Nmap Post Port Scans ',
+      title: 'Nmap Host Live Discovery ',
       description:
       '',
       benefits: '.',
