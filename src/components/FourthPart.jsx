@@ -347,7 +347,8 @@ function FourthPart() {
       '',
       benefits: '.',
       image: bgd44,
-    },{
+    },
+    {
       title: 'Nmap Post Port Scans ',
       description:
       '',
