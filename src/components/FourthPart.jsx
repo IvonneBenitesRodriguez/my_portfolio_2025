@@ -43,6 +43,7 @@ import bgd42 from '../img/badges/bgd42.png';
 import bgd43 from '../img/badges/bgd43.png';
 import bgd44 from '../img/badges/bgd44.png';
 import bgd45 from '../img/badges/bgd45.png';
+import bgd46 from '../img/badges/bgd46.png';
 
 function FourthPart() {
   const badges = [
@@ -354,6 +355,13 @@ function FourthPart() {
       '',
       benefits: '.',
       image: bgd45,
+    },
+     {
+      title: 'Protocols and Servers',
+      description:
+      '',
+      benefits: '.',
+      image: bgd46,
     },
   ];
   return (
