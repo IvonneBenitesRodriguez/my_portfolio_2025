@@ -44,6 +44,8 @@ import bgd43 from '../img/badges/bgd43.png';
 import bgd44 from '../img/badges/bgd44.png';
 import bgd45 from '../img/badges/bgd45.png';
 import bgd46 from '../img/badges/bgd46.png';
+import bgd47 from '../img/badges/bgd47.png';
+import bgd48 from '../img/badges/bgd48.png';
 
 function FourthPart() {
   const badges = [
@@ -362,6 +364,20 @@ function FourthPart() {
       '',
       benefits: '.',
       image: bgd46,
+    },
+    {
+      title: 'Network Security Challenge',
+      description:
+      '',
+      benefits: '.',
+      image: bgd47,
+    },
+    {
+      title: 'Vulnerabilities 101',
+      description:
+      '',
+      benefits: '.',
+      image: bgd48,
     },
   ];
   return (
