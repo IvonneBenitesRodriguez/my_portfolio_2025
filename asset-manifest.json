@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_portfolio_2025/static/css/main.99c1ce68.css",
-    "main.js": "/my_portfolio_2025/static/js/main.ebbd47de.js",
+    "main.js": "/my_portfolio_2025/static/js/main.aa153b32.js",
     "static/media/mypicture.png": "/my_portfolio_2025/static/media/mypicture.dc01db348e603bd77e95.png",
     "static/media/p2.png": "/my_portfolio_2025/static/media/p2.ce508af5e214d41769dc.png",
     "static/media/bdg2.png": "/my_portfolio_2025/static/media/bdg2.a7281f5767cc92960b4d.png",
@@ -39,8 +39,10 @@
     "static/media/bgd14.png": "/my_portfolio_2025/static/media/bgd14.cd4f24e3070f6eb2056e.png",
     "static/media/bgd13.png": "/my_portfolio_2025/static/media/bgd13.f26a9b2ee6aaeff1b3c3.png",
     "static/media/bgd45.png": "/my_portfolio_2025/static/media/bgd45.1e60636f7740e697028a.png",
+    "static/media/bgd48.png": "/my_portfolio_2025/static/media/bgd48.f2eb41f5b34417ca7909.png",
     "static/media/bgd35.png": "/my_portfolio_2025/static/media/bgd35.9b7b2de0efd44e3f87ba.png",
     "static/media/bgd15.png": "/my_portfolio_2025/static/media/bgd15.4806479ebb844f1bd387.png",
+    "static/media/bgd47.png": "/my_portfolio_2025/static/media/bgd47.229798da263d92e467a9.png",
     "static/media/bgd39.png": "/my_portfolio_2025/static/media/bgd39.66cfd9caf2661f7550b0.png",
     "static/media/bgd44.png": "/my_portfolio_2025/static/media/bgd44.e5da432deff624886ae9.png",
     "static/media/bgd28.png": "/my_portfolio_2025/static/media/bgd28.05c3f7657280a9a6700e.png",
@@ -59,10 +61,10 @@
     "static/media/bgd33.png": "/my_portfolio_2025/static/media/bgd33.b0b07229634637f7a3c0.png",
     "index.html": "/my_portfolio_2025/index.html",
     "main.99c1ce68.css.map": "/my_portfolio_2025/static/css/main.99c1ce68.css.map",
-    "main.ebbd47de.js.map": "/my_portfolio_2025/static/js/main.ebbd47de.js.map"
+    "main.aa153b32.js.map": "/my_portfolio_2025/static/js/main.aa153b32.js.map"
   },
   "entrypoints": [
     "static/css/main.99c1ce68.css",
-    "static/js/main.ebbd47de.js"
+    "static/js/main.aa153b32.js"
   ]
 }
