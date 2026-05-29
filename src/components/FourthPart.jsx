@@ -312,8 +312,8 @@ function FourthPart() {
     {
       title: 'Missing a Person Room',
       description: 
-      'OSINT Techniques used.',
-      benefits: '.',
+      'OSINT techniques were utilized to locate and gather information about a person. For this challenge, open-source intelligence tools were employed.',
+      benefits: 'Build real-world OSINT investigation skills applicable to social engineering assessments and threat intelligence.',
       image: bgd39,
     },
     {
