@@ -292,7 +292,7 @@ function FourthPart() {
       title: 'Badge completed: Intro to Web Hacking Module ',
       description:
       '🎯 I am happy to share that I just earned the Intro to Web Hacking badge on TryHackMe.',
-      benefits: '.',
+      benefits: 'Web application attack techniques such as SQL injection, XSS, command injection, and file upload vulnerabilities are taught through hands-on exercises and practice.',
       image: bgd36,
     },
       {
