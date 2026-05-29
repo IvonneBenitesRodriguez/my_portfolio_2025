@@ -347,8 +347,8 @@ function FourthPart() {
     {
       title: 'Network Security Protocols',
       description:
-      '',
-      benefits: '.',
+      'Security-focused protocols such as TLS, HTTPS, SSH and secure communication standards are explained in this room.',
+      benefits: 'Learn through hands-on exercises how secure protocols protect data in transit and how to identify weaknesses in their implementation.',
       image: bgd44,
     },
     {
