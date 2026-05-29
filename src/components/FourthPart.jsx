@@ -305,8 +305,8 @@ function FourthPart() {
       {
       title: 'Active Reconnaissance Room ',
       description:
-      '.',
-      benefits: '.',
+      'Tools such as Nmap, Ping, and Traceroute are employed to gather information about targets. These tools can be used during the Reconnaissance Stage of the Penetration Testing.',
+      benefits: 'Improve and develop skills in active information gathering.',
       image: bgd38,
     },
     {
