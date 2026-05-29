@@ -33,7 +33,7 @@ function FirstPart() {
               href="/my_portfolio_2025/cv/CV_Ivonne_Pentest_Offensive_.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              download="Curriculum.pdf"
+              download="CV_Ivonne_PenTest_Offensive_.pdf"
             >
               <Button
                 style={{
