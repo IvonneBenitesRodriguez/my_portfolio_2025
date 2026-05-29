@@ -299,7 +299,7 @@ function FourthPart() {
       title: 'Command Injection Room ',
       description: 
       'This room focuses on running arbitrary commands on a web server through practical exercises to practice exploiting command injection vulnerabilities.',
-      benefits:'Understand Operating System command injection attack vectors and learn defensive techniques to prevent RCE (Remote Code Execution).',
+      benefits: 'Understand Operating System command injection attack vectors and learn defensive techniques to prevent RCE (Remote Code Execution).',
       image: bgd37,
     },
       {
