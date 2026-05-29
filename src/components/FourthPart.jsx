@@ -179,21 +179,21 @@ function FourthPart() {
      {
       title: 'IDOR',
       description:
-      'Insecure Direct Object Reference Room.',
+      'IDOR vulnerabilities are explored by manipulating object references to access unauthorized data. Practical exercises simulate real-world scenarios where improper access controls expose sensitive information.',
       benefits: 'Learn to change IDs in URLs or requests to access data that does not belong to us. As a penetration tester is possible to see someone else bank account just by changing a number in the URL.',
       image: bgd20,
     },
     {
       title: 'Intro to XSS',
       description:
-      'Intro to Cross-Site Scripting Room.',
+      'Reflected, Stored and DOM-based XSS attack techniques are practiced through hands-on exercises targeting real-world web application scenarios.',
       benefits: 'Directly applicable to web security audits; learn attack vectors that compromise user sessions and sensitive data.',
       image: bgd21,
     },
     {
       title: 'Intro to SSRF',
       description:
-      'Intro to Server-Side Request Forgery Room.',
+      'SSRF vulnerabilities are explored by manipulating server-side requests to access internal resources and bypass security controls.',
       benefits: 'Exploit server-side flaws to access internal resources and cloud services; essential for API and infrastructure security audits.',
       image: bgd22,
     },
