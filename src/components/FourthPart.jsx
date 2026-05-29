@@ -361,15 +361,15 @@ function FourthPart() {
      {
       title: 'Protocols and Servers',
       description:
-      '',
-      benefits: '.',
+      'Common server protocols and their security implications including HTTP, FTP, SMTP and more are explained in this room.',
+      benefits: 'Learn how servers communicate and detect common vulnerabilities in protocol implementations.',
       image: bgd46,
     },
     {
       title: 'Network Security Challenge',
       description:
-      '',
-      benefits: '.',
+      'Hands-on challenge applying network security skills including Nmap NULL scan for 0% IDS detection.',
+      benefits: 'Test and consolidate network security knowledge in a real-world CTF-style challenge environment.',
       image: bgd47,
     },
     {
