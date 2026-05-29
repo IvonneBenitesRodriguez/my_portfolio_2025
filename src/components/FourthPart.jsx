@@ -319,8 +319,8 @@ function FourthPart() {
     {
       title: 'Web Application Basics Room',
       description: 
-      'Concepts such as Security Headers, URL Path, HTTP Request, Request Headers, HTTP Response, Response Headers and Security Headers.',
-      benefits: '.',
+      'First things we need to review in a web application are Security Headers, URL Path, HTTP Request, and Response Headers.',
+      benefits: 'Understand the fundamentals of how web applications work — essential foundation for web application security testing.',
       image: bgd40,
     },
      {
