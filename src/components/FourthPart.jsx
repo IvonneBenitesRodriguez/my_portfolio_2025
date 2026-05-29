@@ -326,8 +326,8 @@ function FourthPart() {
      {
       title: 'Network Essentials Room',
       description: 
-      '',
-      benefits: '.',
+      'Core networking concepts including IP addressing, protocols and network architecture fundamentals are explored through practical exercises in this room.',
+      benefits: 'Build the networking foundation required for effective network security analysis and penetration testing.',
       image: bgd41,
     },
      {
