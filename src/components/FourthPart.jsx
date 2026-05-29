@@ -340,8 +340,8 @@ function FourthPart() {
     {
       title: 'Networking Core Protocols',
       description:
-      '',
-      benefits: '.',
+      'Core protocols such as Domain Name System (DNS), HyperText Transfer Protocol (HTTP), File Transfer Protocol (FTP) and Simple Mail Transfer Protocol (SMTP) are explored in this room.',
+      benefits: 'Gain practical understanding of protocol behavior to identify misconfigurations and potential attack surfaces.',
       image: bgd43,
     },
     {
