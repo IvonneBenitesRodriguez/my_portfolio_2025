@@ -23,7 +23,7 @@ function FirstPart() {
         </div>
         <div className="col-12 col-md-6 d-flex flex-column text-center text-md-start justify-content-center">
           <h1 style={{ marginBottom: '20px' }}>Ivonne Benites Rodriguez</h1>
-          <h2 style={{ marginBottom: '20px' }}>MSc Cybersecurity </h2>
+          <h2 style={{ marginBottom: '10px' }}>MSc Cybersecurity </h2>
           <h3 style={{ fontSize: '1.5rem', marginBottom: '20px' }}>
             Full-Stack Developer & Junior Penetration Tester 
             <br />
