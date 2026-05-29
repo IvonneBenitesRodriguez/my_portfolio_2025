@@ -354,8 +354,8 @@ function FourthPart() {
     {
       title: 'Nmap Host Live Discovery ',
       description:
-      '',
-      benefits: '.',
+      'Practical use of Nmap to discover live hosts, open ports and services on a network is explored through hands-on exercises in this room.',
+      benefits: 'Master one of the most essential tools in a penetration tester toolkit for network reconnaissance.',
       image: bgd45,
     },
      {
