@@ -375,8 +375,8 @@ function FourthPart() {
     {
       title: 'Vulnerabilities 101',
       description:
-      '',
-      benefits: '.',
+      'CVE scoring (CVSS), vulnerability assessment concepts, and vulnerability databases are introduced and explored through practical exercises in this room.',
+      benefits: 'Learn how to identify, classify and prioritise vulnerabilities using industry-standard frameworks and tools.',
       image: bgd48,
     },
   ];
