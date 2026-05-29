@@ -333,8 +333,8 @@ function FourthPart() {
      {
       title: 'Networking Concepts Room',
       description: 
-      '',
-      benefits: '.',
+      'OSI model, TCP/IP and network communication fundamentals are practiced through hands-on exercises in this room.',
+      benefits: 'Understand how networks function at a technical level — critical knowledge for any cybersecurity professional.',
       image: bgd42,
     },
     {
